@@ -25,7 +25,27 @@ To deploy this project run
 
 The live website is hosted at:
 
-https://trackifi.vercel.app/
+https://expensetrackerfrontend-cyan.vercel.app
+
+## Clone this Repository 
+https://github.com/ChandramitaSantra/ExpenseTracker.git
+cd ExpenseTracker
+
+##  Navigate to frontend
+cd client
+npm i 
+Add .env file with REACT_APP_API_URI= "jwttoken"
+npm start
+
+
+##  Navigate to frontend
+cd server
+npm i 
+npm run dev
+Add .env file containing MONGO_URI 
+
+
+
 
 
 
