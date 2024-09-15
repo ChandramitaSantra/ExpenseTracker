@@ -28,21 +28,25 @@ The live website is hosted at:
 https://expensetrackerfrontend-cyan.vercel.app
 
 ## Clone this Repository 
--https://github.com/ChandramitaSantra/ExpenseTracker.git
--cd ExpenseTracker
+- https://github.com/ChandramitaSantra/ExpenseTracker.git
+- cd ExpenseTracker
 
 ##  Navigate to frontend
--cd client
--npm i 
--Add .env file with REACT_APP_API_URI= "jwttoken"
--npm start
+- cd client
+- npm i 
+- Add .env file with REACT_APP_API_URI= "jwttoken"
+```bash
+npm start
+```
 
 
 ##  Navigate to frontend
--cd server
--npm i 
--npm run dev
--Add .env file containing MONGO_URI 
+- cd server
+- npm i
+ ```bash
+npm run dev
+```
+- Add .env file containing MONGO_URI 
 
 
 
@@ -59,7 +63,7 @@ Backend: Express.js, JWT, Mongoose, MongoDB
 
 ## Features
 
-- Adding/Editing/Deleting Transactions
+-  Adding/Editing/Deleting Transactions
 - Adding/Editing monthly/category-wise budget
 - Analysis of spending habits using useful graphs
 - Adding/Editing Monthly and Yearly Budget
